@@ -31,7 +31,7 @@ class BaseDatabase(metaclass = ABCMeta):
         else:
             print("not found database section in config conf file")
             sys.exit()
-            
+
 
     @abstractmethod
     def connect(self):
