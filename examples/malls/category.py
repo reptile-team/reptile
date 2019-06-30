@@ -3,6 +3,8 @@ import sys
 
 sys.path.append('../../')
 
-from reptile.database.mysql.mysqldb import MysqlDatabase
+from reptile.database.mysqldb import MysqlDatabase
 
 mysql = MysqlDatabase()
+
+print(mysql.database)
